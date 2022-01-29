@@ -1,0 +1,110 @@
+/* Copywrite Arseniy Skudaev 2022 */
+.field-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+    margin: 10px;
+    border: 1px solid brown; 
+  }
+.field-grid div {
+    background-color: white;
+    border: 2px solid brown;  
+    text-align: center;  
+    font-size: 30px; 
+    height: 35px;    
+  }  
+  .game{
+      max-width: 1200px;  
+      margin: auto; 
+      padding: 20px;  
+      border: solid 5px chocolate;   
+      margin-top: 80px;  
+  }
+  .game-header{  
+      text-align: center; 
+      display: flex;
+      justify-content: space-between;
+      margin: auto; 
+      max-width: 1000px; 
+      text-align: center; 
+  } 
+  .options{
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      padding: 30px;
+      max-width: 1200px; 
+      border: chocolate 5px solid;  
+  }
+  .options a{
+      text-decoration: none; 
+      color: brown; 
+      font-weight: bold;
+      cursor:  pointer; 
+      font-size: 1.5rem; 
+  }
+  .side-number{
+      margin-top: 50px; 
+      font-weight: bolder;
+      color: coral;
+      font-size: 2rem; 
+  }
+  .options a:hover{
+    text-decoration: underline;  
+  }
+  h1{
+      text-align: center; 
+  }
+  .bottom-box{
+ 
+      border: solid 2px brown;
+      padding: 20px ;
+      margin: 30px auto;
+      max-width: 1200px;  
+  } 
+  .bottom-box span{
+    color: red; 
+  }
+  .bottom-box h2{
+    text-align: center;
+    text-transform: capitalize;  
+  }
+  .bottom-box p{ 
+      padding-left: 40px; 
+    text-align:left; 
+    font-size: 1.5rem; 
+    line-height: 40px;   
+  }
+  table{ 
+      line-height: 40px;
+      font-size: 1.5rem; 
+  }
+  td{
+      min-width: 150px;  
+      text-align: center; 
+  }
+  .first-td{ 
+      text-align: left; 
+  }
+  input {
+      max-width: 50px !important; 
+  }
+  .table-button{
+      padding: 15px; 
+      display: flex;
+      justify-content: space-around;
+      align-items: center;  
+  }
+  .settings-button{     
+      padding: 30px; 
+      font-size: 1.5rem;
+      font-weight: bold; 
+      color: seagreen;    
+      border: green solid 3px;   
+  }
+  .settings-button:hover{  
+      background-color: green;
+      color: white; 
+  }
+ 
+  
+ 
